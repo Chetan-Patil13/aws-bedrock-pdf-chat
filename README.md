@@ -83,13 +83,15 @@ docker run -d \
   -e AWS_REGION=us-east-1 \
   -p 8084:8084 \
   pdf-reader-user
-🌍 Deployed URLs
+
+```
+##🌍 Deployed URLs
 App	URL (kept empty to avoid billing issue)
 Admin App	http://<your-ec2-ip>:8083
 User App	http://<your-ec2-ip>:8084
 
 
-✨ Future Enhancements
+##✨ Future Enhancements
 ✅ Use OpenSearch or Pinecone instead of FAISS
 
 ✅ Auth for Admin panel
@@ -100,8 +102,8 @@ User App	http://<your-ec2-ip>:8084
 
 ✅ HTTPS & domain with Nginx and SSL
 
-📜 License
+##📜 License
 This project is open-source and available under the MIT License.
 
-👋 Connect
+##👋 Connect
 Built with ❤️ by Chetan Patil
